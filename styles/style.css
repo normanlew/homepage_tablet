@@ -71,3 +71,18 @@ svg {
     line-height: 1.5;
 }
 
+.about_links {
+    padding-top: 2rem;
+    display: flex; 
+    /* align-items: center; */
+    justify-content: flex-end;
+    gap: 1rem;
+
+
+}
+
+.about_link_icon {
+    width: 2rem;
+    height: auto;
+}
+
