@@ -37,28 +37,28 @@ svg {
     float: left;
 } */
 
+.about {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 85%;
+    height: 100%;
+    /* z-index: 2; */
+    background-color: rgb(228, 160, 228);
+    padding: 0 2%;
+}
+
 .mobile_picture {
     /* position: relative; */
     float: left;
     /* top: 5%;
     left: 5%; */
-    margin-left: -10%;
+    margin-left: -5%;
     margin-top: -10%;
     margin-right: 2%;
-    width: 55%;
-    height: 80%;
+    width: 60%;
+    height: 88%;
     /* z-index: 3; */
-}
-
-.about {
-    position: absolute;
-    top: 20%;
-    left: 15%;
-    width: 80%;
-    height: 100%;
-    /* z-index: 2; */
-    background-color: rgb(228, 160, 228);
-    padding: 0 2%;
 }
 
 .about_header {
@@ -72,7 +72,7 @@ svg {
 }
 
 .about_links {
-    padding-top: 2rem;
+    /* padding-top: 1rem; */
     display: flex; 
     /* align-items: center; */
     justify-content: flex-end;
@@ -84,5 +84,87 @@ svg {
 .about_link_icon {
     width: 2rem;
     height: auto;
+}
+
+.projects {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+    /* flex-basis: 500px; */
+}
+
+.projects_head {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    background-color: greenyellow;
+    padding-bottom: .5rem;
+}
+
+.projects_header {
+    margin-top: auto;
+}
+
+.projects_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: .5rem; */
+    gap: 1.0rem;
+    row-gap: 2.0rem;
+}
+
+.project_individual {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(228, 160, 228);
+
+    /* height: 100px; */
+    
+}
+
+.project_screenshot {
+    height: 18rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkorange;
+}
+
+.project_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: .5rem;
+    padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    /* background-color: white; */
+}
+
+.project_name_links {
+    display: flex;
+    justify-content: space-between;
+    /* padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem; */
+    align-items: center;
+    width: 100%;   
+}
+
+.project_link_icon {
+    width: 1rem;
+    height: auto;
+}
+
+.project_description {
+    width: 100%;
 }
 
